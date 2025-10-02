@@ -1,0 +1,209 @@
+/* AdminProducts.css */
+
+.admin-products-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.product-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.input-field {
+  flex: 1 1 200px;
+  padding: 12px 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 5px #3498db;
+}
+
+.buttons-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.btn-submit {
+  background-color: #27ae60;
+  color: #fff;
+}
+
+.btn-submit:hover {
+  background-color: #219150;
+}
+
+.btn-cancel {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.btn-cancel:hover {
+  background-color: #c0392b;
+}
+
+.products-list {
+  margin-top: 30px;
+}
+
+.category-group {
+  background-color: #ffffff;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.category-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #34495e;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.product-price {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #2ecc71;
+  min-width: 80px;
+  text-align: right;
+}
+
+.product-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit {
+  background-color: #2980b9;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.btn-edit:hover {
+  background-color: #1c5980;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.btn-delete:hover {
+  background-color: #c0392b;
+}
+
+/* ---------- STYLES FOR VARIATIONS, TOPPINGS, CRUST TYPES ---------- */
+
+.product-form h4 {
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 20px 0 8px;
+  color: #2c3e50;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+}
+
+.nested-group {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.nested-group input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+/* Additional Notes */
+.input-field[name="additionalNotes"] {
+  min-height: 80px;
+  resize: vertical;
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .product-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .input-field {
+    width: 100%;
+  }
+  .product-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .product-price {
+    text-align: left;
+  }
+  .nested-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

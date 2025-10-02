@@ -1,0 +1,144 @@
+/* .admin-sticky-menu {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000;
+  padding: 10px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+.admin-nav-menu {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-category-item {
+  padding: 8px 14px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.admin-category-item:hover {
+  background: linear-gradient(135deg, #5a6dfb, #8f3cc9);
+  transform: translateY(-2px);
+} */
+
+
+
+
+
+.admin-dashboard-wrapper {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.admin-form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.admin-form input {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex: 1 1 200px;
+  font-size: 14px;
+}
+
+.admin-submit-btn {
+  background-color: #4caf50;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.admin-submit-btn:hover {
+  background-color: #3e8e41;
+}
+
+.admin-nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.admin-category-card {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  padding: 16px 20px;
+  border-radius: 15px;
+  width: 250px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.admin-category-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.admin-category-info p {
+  margin: 6px 0 12px 0;
+  font-size: 13px;
+  color: #e0e0e0;
+}
+
+.admin-btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-edit-btn,
+.admin-delete-btn {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.admin-edit-btn {
+  background-color: #2196f3;
+  color: white;
+}
+
+.admin-edit-btn:hover {
+  background-color: #0b7dda;
+}
+
+.admin-delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.admin-delete-btn:hover {
+  background-color: #d32f2f;
+}

@@ -1,0 +1,59 @@
+
+/* AdminPage.css */
+
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  height: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+  width: 150px;
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.sidebar .logo {
+  font-size: 22px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #f1c40f;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 20px 0;
+}
+
+.sidebar nav ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.sidebar nav ul li a:hover {
+  color: #f1c40f;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 50px;
+  background-color: #ecf0f1;
+}
+
+.dashboard-content h1 {
+  color: #2c3e50;
+  font-size: 32px;
+}
+
+.dashboard-content p {
+  font-size: 18px;
+  color: #555;
+}

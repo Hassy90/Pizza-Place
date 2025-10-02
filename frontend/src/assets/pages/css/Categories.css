@@ -1,0 +1,176 @@
+.sticky-menu{
+    position: sticky;
+    top: 0;
+    /* padding-top: 0.5px; */
+    background-color: white; 
+    z-index: 999;
+    width: 100%;
+}
+.nav-menu{
+    font-family: sans-serif;
+    font-size: 88px;
+    height: 38px;
+    width: 1280px;
+    margin-left: 106px;
+    font-size: 19px;
+    margin-top: 33px;
+    display: flex;
+    flex-direction: row;
+}
+.cate-gories{
+    
+    padding-right: 30px;
+    padding-left: 22px;
+    color: black;
+    font-size: 23px;
+}
+
+/* Css of Starter.jsx */
+
+.starter-div{
+    font-family: sans-serif;
+    height: auto;
+    width: 1410px;
+    margin-left: 106px;
+    font-size: 19px;
+    margin-top: 13px;
+
+    /* width: 84vw;
+    margin-left: 7vw;
+    margin-top: 5vh;
+    font-size: 2rem; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.prod-category{
+    font-size: 26px;
+    font-weight: 600; 
+    font-family: 'Roboto' ,sans-serif;
+    width: 100%;
+    
+}
+.prod-discrip{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #6B6B6B;
+    padding-top: 9px;
+    padding-left: 8px;
+    width: 100%;
+    
+}
+ .product1{
+    font-size: 24px;
+    font-family: sans-serif;
+    height: 136px;
+    width: 635px;
+    border: 1px solid #dedede;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+.prod-name{
+    font-size: 24px;
+    font-family: sans-serif;
+    padding-left: 12px;
+    padding-top: 12px;
+    
+    
+}
+.prod-catdiscrip{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #6B6B6B;
+    padding-top: 9px;
+    padding-left: 12px;
+}
+.prod-price{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 9px;
+    padding-left: 12px;
+    
+}
+
+.img-div{
+    margin-left: 388px;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.indcide-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+.product1 {
+  font-size: 24px;
+  font-family: sans-serif;
+  height: 137px;
+  width: 635px;
+  border: 1px solid #dedede;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-top: 22px;
+}
+
+.starter-product {
+    
+  height: 160px;
+  width: 633px;
+
+  /* height: 24vh;
+  width: 41.3vw;
+  box-sizing: border-box; */
+}
+
+ .pizza-product {
+  height: 100;
+  width: 313px;
+  /* height: 18vh;
+  width: 20.4vw;
+  box-sizing: border-box; */
+  
+} 
+.pizza-product .prod-name {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 12px;
+  
+  
+}
+
+.pizza-product .prod-price {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0;
+  margin-left: 12px;
+  margin-top: 12px;
+  
+}
+
+.pizza-product .prod-catdiscrip {
+  font-size: 14px;
+  color: #6B6B6B;
+  margin-top: 12px;
+}
+
+.atesting-order-product {
+  height: 140px;
+  width: 312px;
+  /* height: 18vh;
+  width: 20.5vw;
+  box-sizing: border-box; */
+}
+.top-right{
+    display: flex;
+    justify-content: space-between;
+}
