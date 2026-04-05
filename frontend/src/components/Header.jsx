@@ -10,7 +10,8 @@ import { FaShoppingBag } from "react-icons/fa";
 import { FaTruck } from "react-icons/fa";
 import { MdEmojiFoodBeverage } from "react-icons/md";
 import { FaCalendarAlt } from "react-icons/fa";
-import BusinessHours from "../modals/businessHours";
+// import BusinessHours from "../modals/businessHours";
+import BusinessHours from '../modals/BusinessHours';
 import { Link } from "react-router"
 import axios from "axios"
 import { useEffect } from "react";
